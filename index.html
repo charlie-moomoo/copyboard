@@ -1,2 +1,2 @@
 <script>myStorage = window.localStorage;</script>
-<textarea style="width:100%;height:100%" onchange="" />
+<textarea style="width:100%;height:100%" name="PasteThings" id="PasteThings" onchange="localStorage.setItem('NowThings', $("PasteThings").val(););" />
